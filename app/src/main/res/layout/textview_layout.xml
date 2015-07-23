@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+
+
+    >
+
+
+
+    <EditText
+        android:id="@+id/grid_item_label"
+        android:layout_width="50dp"
+        android:background="#FFFFFF"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:digits="123456789"
+        android:maxLength="1"
+        android:text="@+id/label"
+
+        android:textSize="30px" >
+    </EditText>
+
+</LinearLayout>
